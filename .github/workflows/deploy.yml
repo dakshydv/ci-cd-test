@@ -21,4 +21,5 @@ jobs:
           username: ubuntu
           password: ${{ secrets.PRIVATE_SSH_KEY }}
           port: 8080
-          script: whoami
+          script: |
+            ls
